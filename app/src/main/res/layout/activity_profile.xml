@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCE4EC"
+    android:orientation="vertical"
+    tools:context=".ActivityProfile">
+    <include
+        android:id="@+id/ToolBarId"
+        layout="@layout/toolbar_layout" />
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="65dp"
+                    android:background="@drawable/cardview_backgraound"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="20dp">
+
+                    <com.elyeproj.loaderviewlibrary.LoaderTextView
+                        android:id="@+id/NameTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/loading"
+                        android:textAlignment="center"
+                        android:textColor="#E2FFFFFF"
+                        android:textSize="22sp" />
+
+                    <com.elyeproj.loaderviewlibrary.LoaderTextView
+                        android:id="@+id/SpTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/loading"
+                        android:textAlignment="center"
+                        android:textColor="#E2E5F0"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/action_btn_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="15dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/TimeTable"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="0dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical">
+
+                                    <com.elyeproj.loaderviewlibrary.LoaderTextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="@string/timeToSeePatient"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:background="#111111" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3"
+                                    android:orientation="vertical">
+
+                                    <com.elyeproj.loaderviewlibrary.LoaderTextView
+                                        android:id="@+id/DayTv"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:padding="8dp"
+                                        android:text="@string/loading"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:background="#111111" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="4"
+                                    android:orientation="vertical">
+
+                                    <com.elyeproj.loaderviewlibrary.LoaderTextView
+                                        android:id="@+id/TimeTv"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:padding="8dp"
+                                        android:text="@string/loading"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dataContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/action_btn_layout"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/ic_school_black_24dp" />
+
+                        <com.elyeproj.loaderviewlibrary.LoaderTextView
+                            android:id="@+id/EduTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/loading"
+                            android:textColor="#2E2929" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/ic_work_black_24dp" />
+
+                        <com.elyeproj.loaderviewlibrary.LoaderTextView
+                            android:id="@+id/WorkTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/loading"
+                            android:textColor="#2E2929" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/ic_phone_in_talk_black_24dp" />
+
+                        <com.elyeproj.loaderviewlibrary.LoaderTextView
+                            android:id="@+id/PhoneTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/loading"
+                            android:textColor="#2E2929" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="3dp"
+                            android:src="@drawable/ic_account_balance_black_24dp" />
+
+                        <com.elyeproj.loaderviewlibrary.LoaderTextView
+                            android:id="@+id/ChamberTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/loading"
+                            android:textColor="#2E2929" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dataContainer"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.elyeproj.loaderviewlibrary.LoaderTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CallForSerial" />
+
+                    <Button
+                        android:id="@+id/SerialBtnId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/matetial_btn"
+                        android:drawableStart="@drawable/ic_phone_in_talk_black_24dp"
+                        android:drawablePadding="8dp"
+                        android:paddingStart="24dp"
+                        android:paddingEnd="24dp"
+                        android:text="@string/loading"
+                        android:textAllCaps="false"
+                        android:textColor="#1DE9B6"
+                        android:textSize="16sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/azad"
+                                android:paddingTop="5dp"
+                                android:text="@string/vCard"
+                                android:textColor="#4A148C"
+                                android:textSize="16sp" />
+
+                            <Button
+                                android:id="@+id/ExpandBtn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="32dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:paddingStart="32dp"
+                                android:paddingEnd="32dp"
+                                android:background="@drawable/dc_title_bg"
+                                android:text="@string/clickHere"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#0D47A1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_marginStart="16dp"
+                android:text="@string/vCard2"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:fontFamily="@font/azad"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/CollapseBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/ic_baseline_backspace_24" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0D47A1">
+
+            <ProgressBar
+                android:id="@+id/ProgressBarId"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/VisitingCardImageId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:scaleType="fitXY"
+                android:scrollbarSize="2dp"
+                android:src="@drawable/oops_card" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

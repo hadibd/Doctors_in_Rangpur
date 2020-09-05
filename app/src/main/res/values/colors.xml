@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6A1B9A</color>
+    <color name="colorPrimaryDark">#311B92</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="doctorNameTvColor">#D81B60</color>
+
+    <color name="doctorNameListHeadingColor">#FF00E5FF</color>
+    <color name="doctorNameListSubHeadingColor">#E2D7D7</color>
+
+</resources>

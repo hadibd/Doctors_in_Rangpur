@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityMain">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_backgraound"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2.5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Neurologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Neurologist"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/Neurologist_sp"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Medicine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_button_background_white"
+                    android:onClick="Medicine"
+                    android:text="@string/Medicine" />
+
+                <Button
+                    android:id="@+id/Gynecologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Gynecologist"
+                    android:text="@string/Gynecologists"
+                    android:textColor="#D2D2E4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2.5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Oncologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Oncologist"
+                    android:text="@string/Oncologists"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Anesthesiologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/Anesthesiologists"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Surgeon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Surgeon"
+                    android:text="@string/Surgery"
+                    android:textColor="#D2D2E4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2.5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Otolaryngologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Otolaryngologist"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/ent"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Orthopedist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_button_background_white"
+                    android:onClick="Orthopedist"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/Orthopedist" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="2.5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Pediatrician"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_button_background_white"
+                    android:onClick="Pediatrician"
+                    android:text="@string/Pediatricians" />
+
+                <Button
+                    android:id="@+id/Dermatologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Dermatologist"
+                    android:text="@string/Dermatologists"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Endocrinologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Endocrinologist"
+                    android:text="@string/Diabetics"
+                    android:textColor="#D2D2E4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Gastroenterologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Gastroenterologist"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/Liver"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_button_background_white"
+                    android:onClick="Physiotherapist"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/Physiotherapist" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Nephrologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_button_background_white"
+                    android:onClick="Nephrologist"
+                    android:text="@string/Nephrologists" />
+
+                <Button
+                    android:id="@+id/Pulmonologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Pulmonologist"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/Pulmonologists"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Psychiatrist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Psychiatrist"
+                    android:text="@string/Psychiatrists"
+                    android:textColor="#D2D2E4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/DentalSurgeon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="DentalSurgeon"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="@string/Dental"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Ophthalmologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_butttun_background"
+                    android:onClick="Ophthalmologist"
+                    android:text="@string/Ophthalmologist"
+                    android:textColor="#D2D2E4" />
+
+                <Button
+                    android:id="@+id/Cardiologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/doctor_button_background_white"
+                    android:onClick="Cardiologist"
+                    android:text="@string/Cardiologists" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_bengali"
+                    android:text="@string/doctor_list_heading"
+                    android:textColor="#F6F8FA"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_bengali"
+                    android:text="@string/doctor_list_discription"
+                    android:textAlignment="center"
+                    android:textColor="#CED3F1"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_margin="10dp"
+                android:onClick="DoctorsChamber"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/doctor_groups">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/dc_cardview_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/noto_sans_bengali"
+                            android:padding="10dp"
+                            android:text="@string/doctor_full_list"
+                            android:textAlignment="center"
+                            android:textColor="#C1C4D5"
+                            android:textSize="15sp" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/matetial_btn"
+                            android:onClick="DoctorsChamber"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="@string/see_doctors_list"
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Doctors in Rangpur</string>
+    <string name="app_name_underline"><u>Doctors in Rangpur</u></string>
+
+
+    <string name="popular_one">পপুলার ডায়াগনস্টিক সেন্টার-১</string>
+    <string name="popular_one_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="popular_two">পপুলার ডায়াগনস্টিক সেন্টার-২</string>
+    <string name="popular_two_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="labAid">ল্যাবএইড ডায়াগনস্টিক সেন্টার</string>
+    <string name="labAid_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="update">আপডেট ডায়াগনস্টিক সেন্টার</string>
+    <string name="update_add">ধাপ(পুলিশ ফাঁড়ির বিপরীতে), জেল রোড, রংপুর</string>
+
+    <string name="doctors">ডক্টরস ডায়াগনস্টিক সেন্টার</string>
+    <string name="doctors_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="hyper_tension">হাইপার টেনশন এন্ড রিসার্চ সেন্টার</string>
+    <string name="hyper_tension_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="kasir_uddin">কছির উদ্দিন কলেজ ও হাসপাতাল</string>
+    <string name="kasir_uddin_add">বাংলাদেশ ব্যাংক মোড়, ধাপ ইঞ্জিয়ার পাড়া, রংপুর</string>
+
+    <string name="islami_bank">ইসলামী ব্যাংক কমিউনিটি হাসপাতাল</string>
+    <string name="islami_bank_add">ধাপ(পুলিশ ফাঁড়ি সংলগ্ন), জেল রোড, রংপুর</string>
+
+    <string name="seba">সেবা প্যাথলজিক্যাল সেন্টার</string>
+    <string name="seba_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="annex">এনেক্স ডায়াগনস্টিক সেন্টার</string>
+    <string name="annex_add">ধাপ মেডিকেল মোড়, জেল রোড, রংপুর</string>
+
+    <string name="apollo">অ্যাপোলো ডায়াগনস্টিক সেন্টার</string>
+    <string name="apollo_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="rangpur_digital">রংপুর ডিজিটাল ডায়াগনস্টিক সেন্টার</string>
+    <string name="rangpur_digital_add">ক্যান্ট পাবলিক স্কুলের বিপরীতে,ওভার ব্রীজ সংলগ্ন, ধাপ, রংপুর। </string>
+
+    <string name="metroLab">মেট্রোল্যাব ইমেজিং এন্ড ডায়াগনস্টিক সেন্টার</string>
+    <string name="metroLab_add">মেডিকেল মােড় মসজিদের পূর্বে, ধাপ, রংপুর</string>
+
+    <string name="prescription_point">প্রেসক্রিপশন পয়েন্ট ডায়াগনস্টিক সেন্টার</string>
+    <string name="prescription_point_add">ক্যান্ট পাবলিক স্কুল লিংক রােড, মেডিকেল মােড়, ধাপ, রংপুর</string>
+
+    <string name="rangpur_city_scan">রংপুর সিটি স্ক্যান এন্ড ডায়াগনস্টিক সেন্টার</string>
+    <string name="rangpur_city_scan_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="sun">সান ডায়াগনস্টিক সেন্টার</string>
+    <string name="sun_add">মেডিকেল মােড়, ক্যান্ট পাবলিক স্কুলের পূর্ব পার্শ্বে, রংপুর</string>
+
+    <string name="central_lab">সেন্ট্রাল ল্যাবরেটরী</string>
+    <string name="central_lab_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="metro_lab">মেট্রোল্যাব ইমেজিং এন্ড ডায়াগনােস্টিক সেন্টার </string>
+    <string name="metro_lab_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="general">জেনারেল ডায়াগনস্টিক সেন্টার</string>
+    <string name="general_add">ধাপ, জেল রোড, রংপুর</string>
+
+    <string name="popular_one_en">Popular unit-1</string>
+    <string name="popular_two_en">Popular unit-2</string>
+    <string name="labAid_en">LabAid diagnostic Centre</string>
+    <string name="update_en">Update diagnostic Centre</string>
+    <string name="doctors_en">Doctors diagnostic Centre</string>
+    <string name="hyper_tension_en">Hyper tension research Centre </string>
+    <string name="kasir_uddin_en">Kosir uddin medical college</string>
+    <string name="islami_bank_en">Islami bank community medical</string>
+    <string name="seba_en">সSeba pathological Centre</string>
+    <string name="annex_en">Annex diagnostic Centre</string>
+    <string name="apollo_en">Apollo diagnostic Centre</string>
+    <string name="rangpur_digital_en">Rangpur digital diagnostic Centre</string>
+    <string name="metroLab_en">Metrolab imaging and diagnostic Centre</string>
+    <string name="prescription_point_en">Prescription point diagnostic Centre</string>
+    <string name="rangpur_city_scan_en">Rangpur city scan and diagnostic Centre</string>
+    <string name="sun_en">Sun diagnostic Centre </string>
+    <string name="central_lab_en">Central laboratory</string>
+    <string name="general_en">General diagnostic</string>
+
+    <string name="hc_serial">01781166605</string>
+    <string name="m_serial">01781166605</string>
+
+    <string name="Medicine">মেডিসিন</string>
+    <string name="Surgery">সার্জারী</string>
+    <string name="Gynecologists">গাইনী</string>
+    <string name="Anesthesiologists">এ্যানেসথেসিয়া</string>
+    <string name="Dental">ডেন্টাল সার্জন</string>
+    <string name="Cardiologists">হৃদরোগ</string>
+    <string name="Pediatricians">শিশুরোগ</string>
+    <string name="Dermatologists">চর্ম ও যৌন</string>
+    <string name="ent">নাক, কান ও গলা</string>
+    <string name="Diabetics">ডায়াবেটিস</string>
+    <string name="Orthopedist">বাত, ব্যাথা, প্যারালাইসিস</string>
+    <string name="Neurologists">মনোরোগ</string>
+    <string name="Psychiatrists">মনোরোগ</string>
+    <string name="Oncologists">ক্যান্সার</string>
+    <string name="Liver">লিভার গ্যাস্ট্রোএন্টারোলজী</string>
+    <string name="Physiotherapist">ফিজিওথেরাপি</string>
+    <string name="Urologists">ইউরোলজি</string>
+    <string name="Nephrologists">কিডনীরোগ</string>
+    <string name="Ophthalmologist">চক্ষু</string>
+    <string name="Pulmonologists">যক্ষা, হাপানী ও বক্ষব্যাধী</string>
+
+    <string name="MedicineTitle">Medicine Specialist</string>
+    <string name="SurgeryTitle">Surgeon in Rangpur</string>
+    <string name="GynecologistsTitle">Gynecologists in Rangpur</string>
+    <string name="AnesthesiologistsTitle">Anesthesiologists in Rangpur</string>
+    <string name="DentalTitle">Dental Surgeon</string>
+    <string name="CardiologistsTitle">Cardiologists in Rangpur</string>
+    <string name="PediatriciansTitle">Pediatricians in Rangpur</string>
+    <string name="DermatologistsTitle">Dermatologists in Rangpur</string>
+    <string name="entTitle">Ent Specialist</string>
+    <string name="EndocrinologistTitle">Endocrinologist in Rangpur</string>
+    <string name="OrthopedistTitle">Orthopedist in Rangpur</string>
+    <string name="NeurologistsTitle">Neurologists in Rangpur</string>
+    <string name="PsychiatristsTitle">Psychiatrists in Rangpur</string>
+    <string name="OncologistsTitle">Oncologists in Rangpur</string>
+    <string name="LiverTitle">Gastroenterologist in Rangpur</string>
+    <string name="PhysiotherapistTitle">Physiotherapist in Rangpur</string>
+    <string name="UrologistsTitle">Urologists in Rangpur</string>
+    <string name="NephrologistsTitle">Nephrologists in Rangpur</string>
+    <string name="OphthalmologistTitle">Ophthalmologist in Rangpur</string>
+    <string name="PulmonologistsTitle">Pulmonologists in Rangpur</string>
+
+    <string name="doctor_list_heading"> ডাক্তার ক্যাটাগরী নির্বাচন করুন </string>
+    <string name="doctor_list_discription"> উপরের তালিকা থেকে কোন ধরনের ডাক্তার দেখাতে চান তা সিলেক্ট করুন </string>
+    <string name="doctor_full_list"> চেম্বার অনুযায়ী সকল ডাক্তারের তালিকা\nদেখতে এখানে ক্লিক করুন </string>
+
+    <string name="Medicine_sp">মেডিসিন বিশেষজ্ঞ</string>
+    <string name="Surgery_sp">সার্জারী বিশেষজ্ঞ</string>
+    <string name="Gynecologists_sp">গাইনী বিশেষজ্ঞ</string>
+    <string name="Cardiologists_sp">হৃদরোগ বিশেষজ্ঞ</string>
+    <string name="Pediatricians_sp">শিশুরোগ বিশেষজ্ঞ</string>
+    <string name="Dermatologists_sp">চর্ম ও যৌন বিশেষজ্ঞ</string>
+    <string name="ent_sp">নাক,কান,গলা বিশেষজ্ঞ</string>
+    <string name="Diabetics_sp">ডায়াবেটিস বিশেষজ্ঞ</string>
+    <string name="Paralysis_sp">বাত,ব্যাথা প্যারালাইসিস বিশেষজ্ঞ</string>
+    <string name="Psychiatrists_sp">মনোরোগ বিশেষজ্ঞ</string>
+    <string name="Oncologists_sp">ক্যান্সার বিশেষজ্ঞ</string>
+    <string name="Liver_sp">লিভার গ্যাস্ট্রোএন্টারোলজী বিশেষজ্ঞ</string>
+    <string name="Physiotherapist_sp">ফিজিওথেরাপি বিশেষজ্ঞ</string>
+    <string name="Urologists_sp">ইউরোলজি বিশেষজ্ঞ</string>
+    <string name="Nephrologists_sp">কিডনীরোগ বিশেষজ্ঞ</string>
+    <string name="Eye_sp">চক্ষু বিশেষজ্ঞ</string>
+    <string name="Pulmonologists_sp">যক্ষা,হাপানী,বক্ষব্যাধী বিশেষজ্ঞ</string>
+    <string name="General_sp">জেনারেল ফিজিশিয়ান</string>
+    <string name="Neurologist_sp">স্নায়ু বিশেষজ্ঞ</string>
+
+
+    <string name="diagnostic_Centre">ডায়াগনস্টিক সেন্টার</string>
+    <string name="timeToSeePatient">রোগী\nদেখার\nসময়</string>
+    <string name="timeToSeePatientDay">প্রতি\nবার</string>
+    <string name="timeToSeePatientHour">বিকাল ৩টা\nথেকে\nসন্ধ্যা ৭টা</string>
+
+    <string name="aboutThisDoctor">About Doctor</string>
+    <string name="bookSerial">সিরিয়াল:</string>
+
+    <string name="top_ten"> Top10</string>
+    <string name="specialist"> Specialist </string>
+    <string name="developed_by"> Developed By</string>
+    <string name="ShineUpLab">Shine Up Labs </string>
+
+    <string name="popular_en_one">Popular One</string>
+    <string name="CallForSerial">Call For Serial</string>
+    <string name="vCard">For Doctor\'s Visiting Card </string>
+    <string name="vCard2"> Doctor\'s Visiting Card </string>
+    <string name="clickHere">Click Here</string>
+
+    <string name="vCardErrorMsg">Image Not Loaded!\nCheck your internet connection and try again</string>
+
+    <string name="TripleDot"> ... ... ... </string>
+    <string name="loading">Loading...</string>
+    <string name="sp_heading3">জন বিশেষজ্ঞ ডাক্তার পাওয়া গেছে</string>
+    <string name="see_doctors_list">ডাক্তার তালিকা দেখুন</string>
+    <string name="global_eye">গ্লোবাল আই এন্ড হেলথ কেয়ার হসপিটাল লিঃ</string>
+    <string name="zero">0</string>
+    <string name="personal_number_not_found">ব্যক্তিগত নম্বর পাওয়া যায়নি</string>
+    <string name="about_us">About Us</string>
+    <string name="request_for_doctor">Request For Doctor</string>
+    <string name="report_a_problem">Report A Problem</string>
+    <string name="add_a_doctor">Add A Doctor</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="version">Version</string>
+    <string name="last_update">Last Update</string>
+    <string name="app">App</string>
+    <string name="a_team_for_it_solution">A Team For IT Solution</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="www_shineuplabs_com">www.shineuplabs.com</string>
+    <string name="tt_number">01521466603</string>
+    <string name="check_for_update">Check For Update</string>
+    <string name="jhalhadi_gmail_com">jhalhadi@gmail.com</string>
+    <string name="about_app">About App</string>
+
+    <string name="tos_text">
+    Your privacy is important to us. It is Shine Up Labs\' policy to respect your privacy regarding any information we may collect from you through our app, Doctors in Rangpur.\n\n
+    We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
+    We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+    We don’t share any personally identifying information publicly or with third-parties, except when required to by law.\n\n
+    Our app may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
+    You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.\n\n
+    Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.
+    \n\n
+    This policy is effective as of 31 December 2022.
+    \n\n
+    Privacy Policy created with GetTerms.
+    </string>
+
+    <string name="form_link_add_doctor">https://docs.google.com/forms/d/e/1FAIpQLScJ-oY8BTTIu4Qddk8Uirtke982lrzPVO-Fxzlih5pnMWMMiA/viewform?usp=sf_link</string>
+    <string name="form_link_problem_report">https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__QsfZqtUN1IyS1ZNMFA3WU1SSTRDODFDVk9PVDNHRS4u</string>
+    <string name="form_link_doctor_request">https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__QsfZqtUMUFGQkxMQVdFREVaS1JFRVBTRTJPMk5BNi4u</string>
+
+</resources>

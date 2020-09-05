@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "928376265301",
+    "firebase_url": "https://doctors-in-rangpur-60578.firebaseio.com",
+    "project_id": "doctors-in-rangpur-60578",
+    "storage_bucket": "doctors-in-rangpur-60578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928376265301:android:42fb67129281f120e012dc",
+        "android_client_info": {
+          "package_name": "com.shineuplab.doctorsinrangpur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928376265301-3l4bj6976ibgcrerunfritvj7cflohad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBME5odHj2ra9ld4DMxfk_6861tDCK-9lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928376265301-3l4bj6976ibgcrerunfritvj7cflohad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928376265301:android:631e9c8201f8983ce012dc",
+        "android_client_info": {
+          "package_name": "com.shineuplabs.doctorsinrangpur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928376265301-3l4bj6976ibgcrerunfritvj7cflohad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBME5odHj2ra9ld4DMxfk_6861tDCK-9lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928376265301-3l4bj6976ibgcrerunfritvj7cflohad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

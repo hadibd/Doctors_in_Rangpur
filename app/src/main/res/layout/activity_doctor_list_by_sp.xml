@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ActivityDoctorListBySp">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEE4F1"
+            android:orientation="vertical">
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/doctor_sp_recycler_header"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/header_tag_Tv_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/puja"
+                    android:text="@string/Gynecologists_sp"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/azad"
+                    android:text="@string/app_name"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/sp_outline_bg"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_baseline_person_pin_circle_24" />
+
+                <TextView
+                    android:id="@+id/Total_tv_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/zero"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/azad"
+                    android:text="@string/sp_heading3"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/popular_one_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/popular_one" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/popular_one_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/popular_two_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/popular_two" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/popular_two_Rv_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/labAid_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/labAid" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/labAid_Rv_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/update_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/update" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/update_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/doctors_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/doctors" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/doctors_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hyper_tension_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/hyper_tension" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/hyper_tension_Rv_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kasir_uddin_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/kasir_uddin" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/kasir_uddin_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/islami_bank_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/islami_bank" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/islami_bank_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/seba_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/seba" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/seba_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/annex_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/annex" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/annex_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/apollo_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/apollo" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/apollo_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rangpur_digital_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/rangpur_digital" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rangpur_digital_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/prescription_point_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/prescription_point" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/prescription_point_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sun_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/sun" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/sun_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rangpur_city_scan_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/rangpur_city_scan" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rangpur_city_scan_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/central_lab_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/central_lab" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/central_lab_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/metro_lab_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/metro_lab" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/metro_lab_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/global_eye_layout_id"
+                style="@style/doctor_List_By_Sp_LL">
+
+                <TextView
+                    style="@style/doctor_List_By_Sp_Header_Tv"
+                    android:text="@string/global_eye" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/global_eye_Rv_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
